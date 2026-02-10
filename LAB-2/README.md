@@ -9,7 +9,7 @@ The dataset used for this lab is the **Heart Failure Clinical Records** dataset.
 
 ## Machine Learning Problem
 
-* **Problem Type**: This is a Classification problem.
+* **Problem Type**: This is a **Classification** problem.
 * **Target Variable**: The target variable is `DEATH_EVENT` (Categorical: 0 for survival, 1 for deceased).
 * **Problem Statement**: The objective is to analyze clinical features to predict whether a patient will survive a heart failure event. This model aims to help medical professionals identify high-risk patients based on their clinical history to improve treatment outcomes.
 
