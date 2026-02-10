@@ -1,18 +1,21 @@
-# Lab 2: Heart Failure Prediction - ML Problem Definition
+# Lab 2: Machine Learning Problem Definition
 
-**Student Name:** Waleed Adel Alghamdi
-**Course:** ARTI 308 – Machine Learning (2025/2026)
+## Dataset Description
+The dataset used for this lab is the **Heart Failure Clinical Records** dataset. It contains 299 patient records with 13 different columns:
 
-## Problem Statement
-* **Dataset Name:** Heart Failure Clinical Records Dataset
-* **Dataset Source:** Kaggle / UCI Machine Learning Repository
-* [cite_start]**Problem Type:** Binary Classification [cite: 73, 95]
-* **Description:** Cardiovascular diseases are the leading cause of death globally. This project aims to use a clinical dataset containing 12 features (such as age, serum creatinine, and ejection fraction) to predict the survival of patients with heart failure. [cite_start]The model will learn patterns from clinical history to distinguish between patients who survived and those who did not during the follow-up period. [cite: 76, 98]
-* [cite_start]**Target Variable:** `DEATH_EVENT` (Boolean: 0 = Survived, 1 = Deceased) [cite: 75, 96]
+* **Clinical Metrics**: Age, Anaemia, Creatinine Phosphokinase, Ejection Fraction, Platelets, Serum Creatinine, and Serum Sodium.
+* **Health Indicators**: Diabetes, High Blood Pressure, Sex, and Smoking status.
+* **Follow-up Data**: Time (follow-up period in days).
+
+## Machine Learning Problem
+
+* **Problem Type**: This is a Classification problem.
+* **Target Variable**: The target variable is `DEATH_EVENT` (Categorical: 0 for survival, 1 for deceased).
+* **Problem Statement**: The objective is to analyze clinical features to predict whether a patient will survive a heart failure event. This model aims to help medical professionals identify high-risk patients based on their clinical history to improve treatment outcomes.
+
 
 ## Files Included
-`Lab2.ipynb`: The Jupyter Notebook containing data loading, inspection (df.info()), and problem definition.
 
-`waleed.csv`: The raw dataset used for training.
-
-`Methodology-LAB-2.png`: A flowchart illustrating the proposed ML pipeline.
+- **`Lab2.ipynb`**: The Jupyter Notebook containing data loading, inspection (shape, head, info), and basic data type checks.
+- **`waleed.csv`**: The raw clinical dataset used for the analysis.
+- **`Methodology-LAB-2.png`**: A flowchart illustrating the proposed ML pipeline from data collection to evaluation.
