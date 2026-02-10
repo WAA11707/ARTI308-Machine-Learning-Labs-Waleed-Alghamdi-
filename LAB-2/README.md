@@ -11,8 +11,8 @@
 * [cite_start]**Target Variable:** `DEATH_EVENT` (Boolean: 0 = Survived, 1 = Deceased) [cite: 75, 96]
 
 ## Files Included
-Lab2.ipynb: The Jupyter Notebook containing data loading, inspection (df.info()), and problem definition.
+`Lab2.ipynb`: The Jupyter Notebook containing data loading, inspection (df.info()), and problem definition.
 
-waleed.csv: The raw dataset used for training.
+`waleed.csv`: The raw dataset used for training.
 
-Methodology-LAB-2.png: A flowchart illustrating the proposed ML pipeline.
+`Methodology-LAB-2.png`: A flowchart illustrating the proposed ML pipeline.
