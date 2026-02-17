@@ -14,7 +14,7 @@
 | :--- | :--- | :--- |
 | **[Lab 1](./LAB-1)** | Environment Setup |  Completed |
 | **[Lab 2](./LAB-2)** | Problem Formulation & Data Collection |  Completed |
-| **[Lab 3](./LAB-3)** | *(Coming Soon)* | Pending |
+| **[Lab 3](./LAB-3)** | *Exploratory Data Analysis* | Completed |
 
 ---
 
