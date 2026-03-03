@@ -1,4 +1,4 @@
-# Lab 4: Heart Failure Data Refinement & Preprocessing
+# Lab 4: Data Quality Assessment & Preprocessing
 
 ## Project Summary
 This lab explores the essential second phase of the Machine Learning lifecycle: **Data Preprocessing**. Since raw clinical data is frequently riddled with inconsistencies, noise, or missing entries, this project utilizes the `waleed.csv` heart failure dataset to practice robust cleaning and preparation methods before any predictive modeling begins.
