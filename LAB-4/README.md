@@ -1,53 +1,53 @@
-# Lab 4: Data Quality Assessment & Preprocessing
+# Lab 4: Heart Failure Data Refinement & Preprocessing
 
-## Project Overview
-This lab focuses on the critical second step of the Machine Learning pipeline: **Preprocessing**. In real-world scenarios, data is often incomplete, noisy, or inconsistent. Using a clinical heart failure dataset (`waleed.csv`), we apply various cleaning and transformation techniques to prepare the data for predictive modeling.
-
----
-
-## Preprocessing Workflow
-
-### 1. Data Quality Assessment
-An initial audit of the 299 records was performed to identify structural or logical errors:
-* **Data Types**: Verified that all 13 features were correctly identified as numeric (int64 or float64).
-* **Logical Consistency**: Checked for unusual values; for instance, verified that the `age` column contained no zero or negative values.
-
-### 2. Handling Missing Values
-To demonstrate imputation techniques, we artificially introduced gaps in the dataset:
-* **Simulation**: 20 random values were removed from the `platelets` column.
-* **Strategy**: **Median Imputation** was used to fill these gaps.
-* **Justification**: The median is robust to the extreme high values often found in medical data, ensuring that the central tendency is not skewed by outliers.
-
-### 3. Outlier Detection
-Extreme values can significantly distort machine learning models by adding noise.
-* **Method**: Used the **Interquartile Range (IQR)** method on the `creatinine_phosphokinase` feature.
-* **Result**: **29 extreme outliers** were identified and removed. 
-* **Final Shape**: The dataset was reduced from 299 to 270 samples following outlier removal.
-
-### 4. Data Transformation (Normalization)
-To ensure all numerical features contribute equally to the model, we applied two scaling methods:
-* **Min-Max Scaling**: Rescaled features (such as `age`, `platelets`, and `time`) to a fixed range of $[0, 1]$.
-* **Z-Score Normalization**: Transformed features to have a **Mean of 0** and a **Standard Deviation of 1**.
-
-### 5. Data Reduction (PCA)
-We utilized **Principal Component Analysis** (PCA) to reduce dimensionality while retaining maximum information:
-* **Explained Variance**: The first two Principal Components together captured **43.88%** of the total variance in the clinical records.
-* **PC1 Contribution**: The first component (PC1) alone explained **24.12%** of the variance.
-* **Impact**: These uncorrelated components help simplify future training and reduce computational costs.
+## Project Summary
+This lab explores the essential second phase of the Machine Learning lifecycle: **Data Preprocessing**. Since raw clinical data is frequently riddled with inconsistencies, noise, or missing entries, this project utilizes the `waleed.csv` heart failure dataset to practice robust cleaning and preparation methods before any predictive modeling begins.
 
 ---
 
-## Key Results
-| Metric | Value |
+## The Preprocessing Pipeline
+
+### 1. Data Integrity Audit
+We began with a comprehensive scan of the 299 patient records to catch any structural flaws:
+* **Schema Check**: Confirmed that all 13 clinical attributes were correctly formatted as numeric types (`int64` or `float64`).
+* **Validity Testing**: Performed a sanity check on features like `age` to ensure no logically impossible values (e.g., negative numbers or zeros) were present.
+
+### 2. Missing Data Imputation
+To test our ability to handle incomplete data, we simulated a real-world "messy" scenario:
+* **Artificial Gaps**: 20 entries were randomly deleted from the `platelets` column.
+* **Correction Strategy**: We applied **Median Imputation** to restore the missing data.
+* **Rational**: Unlike the mean, the median is less sensitive to extreme medical readings (outliers), preserving the overall distribution of the dataset without skewing the central tendency.
+
+### 3. Outlier Management
+Anomalous data points can introduce significant bias into a model. 
+* **Detection Technique**: We applied the **Interquartile Range (IQR)** method specifically to the `creatinine_phosphokinase` column.
+* **Outcome**: A total of **29 outliers** were flagged and pruned from the set.
+* **Refined Dataset**: The record count moved from 299 down to a cleaner **270 samples**.
+
+### 4. Feature Scaling (Normalization)
+To prevent features with larger scales from dominating the model, we implemented two standardization techniques:
+* **Min-Max Scaling**: Squashed values for variables like `age` and `time` into a uniform range between $0$ and $1$.
+* **Z-Score Normalization**: Adjusted the features so they center at a **Mean of 0** with a **Standard Deviation of 1**.
+
+### 5. Dimensionality Reduction (PCA)
+To streamline the dataset without losing its "essence," we utilized **Principal Component Analysis** (PCA):
+* **Variance Captured**: The first two Principal Components together accounted for **43.88%** of the total information.
+* **PC1 Strength**: The primary component alone represented **24.12%** of the data's variance.
+* **Benefit**: This transformation creates uncorrelated variables, which can speed up training and prevent overfitting in future models.
+
+---
+
+## Core Statistics
+| Attribute | Result |
 | :--- | :--- |
-| **Total Samples** | 299 |
-| **Outliers Removed** | 29 |
-| **Imputation Method** | Median |
-| **PC1 Variance** | 24.12% |
+| **Initial Records** | 299 |
+| **Outliers Excised** | 29 |
+| **Handling Missing Data** | Median Replacement |
+| **PC1 Explained Variance** | 24.12% |
 
 ---
 
-## Files Included
-* `Lab4.ipynb`: The complete Python implementation of the preprocessing steps.
-* `waleed.csv`: The heart failure clinical records dataset.
-* `README.md`: Documentation of the lab workflow.
+## Repository Contents
+* `Lab4.ipynb`: The Jupyter Notebook containing all Python preprocessing logic.
+* `waleed.csv`: The source clinical dataset.
+* `README.md`: A summary of the project methodology.
