@@ -1,10 +1,23 @@
-# ARTI308: Machine Learning Labs
-**Waleed Adel Saeed Alghamdi** *Student ID: 2240006073 (6MS3)* *Imam Abdulrahman Bin Faisal University (IAU)*
+<div align="center">
+
+# ARTI 308: Machine Learning Portfolio
+
+**Spring 2026 | Imam Abdulrahman Bin Faisal University**
+
+[![Student](https://img.shields.io/badge/Student-Waleed%20Adel%20Alghamdi-blue?logo=google-scholar&logoColor=white)](#)
+[![ID](https://img.shields.io/badge/ID-2240006073-red)](#)
+[![University](https://img.shields.io/badge/College-CCSIT%20%40%20IAU-green?logo=school&logoColor=white)](https://www.iau.edu.sa/en)
+
+</div>
 
 ---
 
-## 📌 Project Overview
-This repository contains the laboratory submissions for the **ARTI 308 - Machine Learning** course (Spring 2026). Each lab focuses on a specific stage of the Machine Learning pipeline, from environment setup to advanced data preprocessing.
+## 📘 Course Information
+
+- **Course:** ARTI 308 - Machine Learning
+- **Semester:** Spring 2026
+- **College:** College of Computer Science and Information Technology (CCSIT)
+- **University:** Imam Abdulrahman Bin Faisal University (IAU)
 
 ---
 
