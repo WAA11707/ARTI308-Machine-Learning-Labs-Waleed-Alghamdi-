@@ -27,11 +27,4 @@ This repository contains the laboratory submissions for the **ARTI 308 - Machine
     * `Matplotlib` & `Seaborn` (Visualization)
 
 ---
-
-## 📁 Repository Structure
-* `LAB4.ipynb`: Implementation of data cleaning and transformation.
-* `waleed.csv`: Clinical heart failure dataset used for analysis.
-* `README.md`: Documentation of work.
-
----
 *Last Updated: March 3rd 2026*
