@@ -8,6 +8,7 @@
 ## Student Tasks
 
 ### Task 1: New Engineered Feature
+**Feature Created:** `price_ratio` 
 
 **Justification:** The `price_ratio` feature captures the "economic value density" of an order. It measures the financial incentive relative to the delivery effort. A low-priced order requiring a long delivery distance may be more prone to driver cancellations or "In Transit" delays due to lower incentive. Conversely, high-value orders over short distances are often prioritized, leading to a higher likelihood of "Delivered" outcomes.
 
