@@ -30,6 +30,7 @@
 | **[Lab 3](./LAB-3)** | **EDA** | Exploratory Data Analysis & Visualization. | ✅ Completed |
 | **[Lab 4](./LAB-4)** | **Data Preprocessing** | Data cleaning, imputation, and PCA. | ✅ Completed |
 | **[Lab 5](./LAB-5)** | **Feature Engineering** | Feature creation, peak hour rules, and selection. | ✅ Completed |
+| **[Lab 6](./LAB-6)** | **Linear Regression** | Predicting yearly customer spending using the Ecommerce dataset. | ✅ Completed |
 
 ---
 
@@ -46,4 +47,4 @@ The following tools and libraries are utilized throughout the course labs and pr
 | **Machine Learning** | ![Scikit-Learn](https://img.shields.io/badge/-Scikit--Learn-F7931E?logo=scikit-learn&logoColor=white) |
 
 ---
-*Last Updated: March 12th 2026*
+*Last Updated: April 8th 2026*
