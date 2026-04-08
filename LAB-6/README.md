@@ -65,10 +65,3 @@ The model is trained on a dataset of **500 customers** with the following numeri
 * **Data Handling:** `Pandas`, `NumPy`
 * **Modeling:** `Scikit-learn`
 * **Visualization:** `Seaborn`, `Matplotlib`
-
----
-
-## 📂 How to Use
-1. Clone the repository.
-2. Ensure you have the `Ecommerce Customers.csv` file in the root directory.
-3. Run the notebook/script to view the coefficients and error metrics.
