@@ -14,10 +14,10 @@
 
 ## 📘 Course Information
 
-- **Course:** ARTI 308 - Machine Learning
-- **Semester:** Spring 2026
-- **College:** College of Computer Science and Information Technology (CCSIT)
-- **University:** Imam Abdulrahman Bin Faisal University (IAU)
+- **Course:** ARTI 308 - Machine Learning[cite: 1]
+- **Semester:** Spring 2026[cite: 1]
+- **College:** College of Computer Science and Information Technology (CCSIT)[cite: 1]
+- **University:** Imam Abdulrahman Bin Faisal University (IAU)[cite: 1]
 
 ---
 
@@ -33,6 +33,7 @@
 | **[Lab 6](./LAB-6)** | **Linear Regression** | Predicting yearly customer spending using the Ecommerce dataset. | ✅ Completed |
 | **[Lab 7](./LAB-7)** | **Logistic Regression** | Predicting advertisement clicks using consumer behavior and demographic data. | ✅ Completed |
 | **[Lab 8](./LAB-8)** | **K-Nearest Neighbors** | Binary classification and hyperparameter optimization using the elbow method. | ✅ Completed |
+| **[Lab 9](./LAB-9)** | **Random Forest** | Loan Repayment Prediction Using LendingClub Data. | ✅ Completed |
 
 ---
 
@@ -49,4 +50,4 @@ The following tools and libraries are utilized throughout the course labs and pr
 | **Machine Learning** | ![Scikit-Learn](https://img.shields.io/badge/-Scikit--Learn-F7931E?logo=scikit-learn&logoColor=white) |
 
 ---
-*Last Updated: April 22nd 2026*
+*Last Updated: April 29th 2026*
