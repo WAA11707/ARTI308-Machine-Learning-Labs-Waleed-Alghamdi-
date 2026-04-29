@@ -14,10 +14,10 @@
 
 ## 📘 Course Information
 
-- **Course:** ARTI 308 - Machine Learning[cite: 1]
-- **Semester:** Spring 2026[cite: 1]
-- **College:** College of Computer Science and Information Technology (CCSIT)[cite: 1]
-- **University:** Imam Abdulrahman Bin Faisal University (IAU)[cite: 1]
+- **Course:** ARTI 308 - Machine Learning
+- **Semester:** Spring 2026
+- **College:** College of Computer Science and Information Technology (CCSIT)
+- **University:** Imam Abdulrahman Bin Faisal University (IAU)
 
 ---
 
