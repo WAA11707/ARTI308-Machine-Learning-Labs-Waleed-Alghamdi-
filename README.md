@@ -34,7 +34,7 @@
 | **[Lab 7](./LAB-7)** | **Logistic Regression** | Predicting advertisement clicks using consumer behavior and demographic data. | ✅ Completed |
 | **[Lab 8](./LAB-8)** | **K-Nearest Neighbors** | Binary classification and hyperparameter optimization using the elbow method. | ✅ Completed |
 | **[Lab 9](./LAB-9)** | **Random Forest** | Loan Repayment Prediction Using LendingClub Data. | ✅ Completed |
-| **[Lab 10](./LAB-10)** | **Support Vector Machines** | Species classification of the Iris dataset using SVM and GridSearch optimization. | ✅ Completed |
+| **[Lab 10](./LAB10)** | **Support Vector Machines** | Species classification of the Iris dataset using SVM and GridSearch optimization. | ✅ Completed |
 
 ---
 
