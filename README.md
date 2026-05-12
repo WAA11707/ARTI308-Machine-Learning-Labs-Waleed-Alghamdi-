@@ -34,6 +34,7 @@
 | **[Lab 7](./LAB-7)** | **Logistic Regression** | Predicting advertisement clicks using consumer behavior and demographic data. | ✅ Completed |
 | **[Lab 8](./LAB-8)** | **K-Nearest Neighbors** | Binary classification and hyperparameter optimization using the elbow method. | ✅ Completed |
 | **[Lab 9](./LAB-9)** | **Random Forest** | Loan Repayment Prediction Using LendingClub Data. | ✅ Completed |
+| **[Lab 10](./LAB-10)** | **Support Vector Machines** | Species classification of the Iris dataset using SVM and GridSearch optimization. | ✅ Completed |
 
 ---
 
@@ -50,4 +51,4 @@ The following tools and libraries are utilized throughout the course labs and pr
 | **Machine Learning** | ![Scikit-Learn](https://img.shields.io/badge/-Scikit--Learn-F7931E?logo=scikit-learn&logoColor=white) |
 
 ---
-*Last Updated: April 29th 2026*
+*Last Updated: May 12th 2026*
